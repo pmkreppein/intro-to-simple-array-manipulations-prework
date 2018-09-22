@@ -21,3 +21,8 @@ def using_shift(arr)
   shiftable = arr.shift
   return shiftable
 end
+
+def pop_with_args(array)
+  shiftable = array.shift(2)
+  return shiftable
+end

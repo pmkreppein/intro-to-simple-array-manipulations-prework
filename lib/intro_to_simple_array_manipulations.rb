@@ -13,3 +13,4 @@ def using_pop(arr)
   return popable
 end
 
+def pop_with_args

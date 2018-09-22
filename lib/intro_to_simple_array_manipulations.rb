@@ -35,4 +35,19 @@ def using_insert(array, insertable)
   array.insert(4, insertable)
 end
 
+def using_uniq(arr)
+  arr.uniq 
+end
+
+def using_flatten(arr)
+  arr.flatten 
+end
+
+def using_delete(array, deletable)
+  array.delete(deletable)
+end
+
+def using_delete_at(to_delete_array, position)
+  to_delete_array.delete_at(position)
+end
 

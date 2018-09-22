@@ -13,8 +13,8 @@ def using_pop(arr)
   return popable
 end
 
-def pop_with_args(array)
-  array.pop(2)
+def pop_with_args(arr)
+  arr.pop(2)
 end
 
 def using_shift(arr)
@@ -22,8 +22,8 @@ def using_shift(arr)
   return shiftable
 end
 
-def shift_with_args(array)
-  shiftable = array.shift(2)
+def shift_with_args(arr)
+  shiftable = arr.shift(2)
   return shiftable
 end
 
@@ -31,8 +31,8 @@ def using_concat(x, y)
   x.concat(y)
 end
 
-def using_insert(array, insertable)
-  array.insert(4, insertable)
+def using_insert(arr, insertable)
+  arr.insert(4, insertable)
 end
 
 def using_uniq(arr)

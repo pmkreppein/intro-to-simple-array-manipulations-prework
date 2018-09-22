@@ -26,3 +26,6 @@ def shift_with_args(array)
   shiftable = array.shift(2)
   return shiftable
 end
+
+def using_concat(x, y)
+  concat(x, y)

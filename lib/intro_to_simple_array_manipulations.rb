@@ -31,4 +31,8 @@ def using_concat(x, y)
   x.concat(y)
 end
 
+def using_insert(array, insertable)
+  array.insert(4, insertable)
+end
+
 

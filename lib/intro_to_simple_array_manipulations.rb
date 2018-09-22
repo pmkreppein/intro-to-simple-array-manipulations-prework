@@ -22,7 +22,7 @@ def using_shift(arr)
   return shiftable
 end
 
-def pop_with_args(array)
+def shift_with_args(array)
   shiftable = array.shift(2)
   return shiftable
 end

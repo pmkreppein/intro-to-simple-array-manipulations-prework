@@ -13,8 +13,7 @@ def using_pop(arr)
   return popable
 end
 
-def pop_with_args(arr)
-  arr.pop(2)
-
+def pop_with_args(array)
+  array.pop(2)
 end
 
